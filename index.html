@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Trabajo 1 - Conversor</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<section class="jumbotron">
+		<div class="container">
+			<h1 class="titulo-1">Conversor</h1>
+			<p>Conversor electiva de profundizacion II</p>
+		</div>
+	</section>
+	<section class="main container">
+		<div class="row">
+			<section class="posts col-md-9">
+				<h1>Conversor Informático</h1>
+				<form action="coversor.php" method="post">
+					<div class="form-group">
+						<label for="valor">Digite el valor</label>
+						<input type="text" class="form-control" id="valor" name="valor" placeholder="Ingrese el valor numerico">
+					</div>
+					<div class="form-group">
+						<label for="mactual">Especifique ese valor</label>
+						<select class="form-control" name="mactual" id="mactual">
+						  <option><--- Seleccione un valor ---></option>
+						  <option>Hm</option>
+						  <option>Dm</option>
+						  <option>m</option>
+						  <option>dm</option>
+						  <option>cm</option>
+						  <option>mm</option>
+						</select>
+					 </div>
+					 <div class="form-group">
+						<label for="mactual">¿A que valor desea convertir?</label>
+						<select class="form-control" name="mconvertido" id="mconvertido">
+						  <option><--- Seleccione un valor ---></option>
+						  <option>Hm</option>
+						  <option>Dm</option>
+						  <option>m</option>
+						  <option>dm</option>
+						  <option>cm</option>
+						  <option>mm</option>
+						</select>
+					 </div>
+					 <button type="submit" class="btn btn-primary">Convertir</button>
+				</form>
+			</section>
+			<aside class="col-md-3">
+				<h4>Conversor web</h4>
+				<a href="#" class="list-group-item">
+					<h4 class="list-group-item-heading">Instrucciones: </h4>
+					<p class="list-group-item-text">Digitar el valor inicial, especifique a que unidad de medida pertenece ese valor, seleccione a que unidad de medida desea convertir y por ultimo presione clic en el boton convertir para realizar la operacion</p>
+				</a>
+			</aside>
+		</div>
+	</section>
+	<br>
+		<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-6">
+					<p><strong>Grupo:</strong> Carlos Cortina -<strong> Bryan Manga</strong></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
